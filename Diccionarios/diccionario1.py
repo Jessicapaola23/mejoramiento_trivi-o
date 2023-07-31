@@ -16,10 +16,9 @@ animal=input("Ingresa un animal en español:")
 
 if animal in diccionario_animales:
     traduccion=traduccion(animal)
-    if traduccion != animal:
-        print (f"{animal} en ingles es:{traduccion}")
-    else:
-        print ("Animal no econtrado")
+    print (f"{animal} en ingles es:{traduccion}")
+else:
+    print ("Animal no econtrado")
 
 
 
